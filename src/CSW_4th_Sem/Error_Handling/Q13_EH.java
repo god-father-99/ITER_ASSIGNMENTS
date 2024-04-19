@@ -1,4 +1,4 @@
-package Error_Handling;
+package CSW_4th_Sem.Error_Handling;
 
 public class Q13_EH {
     public static void main(String[] args) {
