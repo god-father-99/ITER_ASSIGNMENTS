@@ -3,6 +3,7 @@ Welcome to the repository containing solutions for CSW-II
 ### Assignment 3: **Error Handling**
 - **Description**: This Repository answers all the problems which are asked in **Assignment-III** of **CSW-II**  (**Error Handling**).
 - **Solution**: [Error Handling](https://github.com/god-father-99/ITER_ASSIGNMENTS/tree/main/src/CSW_4th_Sem)
+- [Questions](https://github.com/god-father-99/ITER_ASSIGNMENTS/blob/main/Assignment%20On%20Error%20handling.pdf)
 ---
 ## Getting Started
 
