@@ -9,9 +9,9 @@ class MyComparator implements Comparator<Car>{
     }
 }
 class Car implements Comparable<Car>{
-    String modelNo;
-    String name;
-    int price;
+    private String modelNo;
+    private String name;
+    private int price;
     public Car(String modelNo, String name, int price) {
         this.modelNo = modelNo;
         this.name = name;
@@ -79,5 +79,7 @@ public class Q2 {
         Car x=new Car("Ford_10", "Ford", 100);
         if(search(carShowroom,x))
             System.out.println("Car found");
+        else
+            System.out.println("Car not found");
     }
 }
