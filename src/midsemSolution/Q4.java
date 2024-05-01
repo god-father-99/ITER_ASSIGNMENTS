@@ -1,8 +1,8 @@
 package MidsemSolution;
 class Employee{
-    String name;
-    int age;
-    String dob;
+    private String name;
+    private int age;
+    private String dob;
     public Employee(String name, int age, String dob) {
         this.name = name;
         this.age = age;
@@ -34,7 +34,9 @@ class Employee{
     }
     public String generatePassword(){
         String []arr=name.split(" ");
+        //arr={"aditya","prasad","sahu"}
         String[]arr2=dob.split("/");
+        //arr2={"19","01","2001"}
         return arr[arr.length-1]+arr2[arr2.length-1];
     }
     public Student createStudent(String name, int age, String dob){
@@ -85,9 +87,9 @@ class Student{
 }
 public class Q4 {
     public static void main(String[] args) {
-        Employee e=new Employee("Aditya prasad sahu",18,"1990/01/2001");
+        Employee e=new Employee("Aditya prasad sahu",18,"19/01/2001");
         System.out.println(e.generatePassword());
-        Student s=e.createStudent("Aditya prasad sahu",18,"1990/01/2001");
+        Student s=e.createStudent("Aditya prasad sahu",18,"19/01/2001");
         e.displayStudent(s);
     }
 }
