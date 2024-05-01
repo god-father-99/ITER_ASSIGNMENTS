@@ -13,7 +13,7 @@ public class Q5 {
         }
         return true;
     }
-    public static void printPrimrFile(File f){
+    public static void printPrimeFile(File f){
         if(!f.exists())
             System.out.println("File not found");
         else {
@@ -61,7 +61,7 @@ public class Q5 {
             catch(IOException e){
                 System.out.println(e.getMessage());
             }
-            printPrimrFile(f);
+            printPrimeFile(f);
         }
     }
 }
