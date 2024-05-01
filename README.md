@@ -5,6 +5,10 @@ Welcome to the repository containing solutions for CSW-II
 - **Solution**: [Error Handling](https://github.com/god-father-99/ITER_ASSIGNMENTS/tree/main/src/CSW_4th_Sem)
 - [Questions](https://github.com/god-father-99/ITER_ASSIGNMENTS/blob/main/Assignment%20On%20Error%20handling.pdf)
 ---
+### MidSem Solution: **CSW-II**
+- **Description**: This Repository answers all the problems which are asked in **MidSem** of **CSW-II** .
+- **Solution**: [MidSem Solution](https://github.com/god-father-99/ITER_ASSIGNMENTS/tree/main/src/midsemSolution)
+---
 ## Getting Started
 
 To explore the solutions, simply navigate to the respective assignment folder and view the solution files. Each solution is accompanied by comments explaining the logic and implementation.
