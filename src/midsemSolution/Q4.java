@@ -52,9 +52,9 @@ class Employee{
     }
 }
 class Student{
-    String name;
-    int age;
-    String dob;
+    private String name;
+    private int age;
+    private String dob;
     public Student(String name, int age, String dob) {
         this.name = name;
         this.age = age;
